@@ -3,14 +3,29 @@
 *{
     font-family: "Fira Sans", serif;
 }
+
+/* shared design */
+.green-btn{
+    border: none;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 17px 34px;
+}
+
 /* header design */
 .navigation{
-    margin: 24px 160px;
+    align-items: center;
+    padding: 24px 260px;
     display: flex;
     justify-content: space-between;
 }
 nav h3{
-    
+    width: 222px;
+    height: 38px;
     font-weight: bold;
     font-size: 32px;
     color: #0E0E0E;
@@ -20,9 +35,39 @@ nav button{
     color: #006A50;
     max-height: 52px;
     font-size: 18px;
-    font-weight: 700px;
+    font-weight: 600px;
     padding: 15px 30px;
     text-align: center;
-    border: 1px solid #006A50 ;
+    border: 1px solid #006A50;
     border-radius: 8px;
+}
+
+/* banner design */
+
+.banner{
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    max-height: 560px;
+    max-width: 1280px;
+    background-color: #C6E4D6;
+    padding: 80px 50px;
+    border-radius: 24px;
+}
+#title{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+}
+#title-des{
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+}
+#banner-img{
+    align-items: center;
 }
