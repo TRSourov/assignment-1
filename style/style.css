@@ -25,8 +25,10 @@
 
 /* header design */
 .navigation{
+    max-width: 1380px;
     align-items: center;
-    padding: 24px 260px;
+    margin: 0px auto;
+    /* padding: 24px 260px; */
     display: flex;
     justify-content: space-between;
 }
@@ -84,7 +86,7 @@ nav button{
 .pillars{
     max-width: 1380px;
     max-height: 324px;
-    margin: 0px auto;
+    margin: 80px auto;
 }
 .content-box{
     display: flex;
@@ -98,4 +100,93 @@ nav button{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
+}
+.content h3{
+    font-size: 20px;
+}
+.content-details{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.vision{
+    max-width: 1380px;
+    max-height: 765px;
+    margin: 150px auto;
+}
+.content-box2{
+    display: flex;
+    gap: 24px;
+}
+.content2{
+    
+    width: 410.67px;
+    height: 325px;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.content2 h3{
+    font-size: 20px;
+}
+#btn1{
+    background-color: #5490F5;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 11px 20px;
+    border: none;
+    position: relative;
+    top: 80px;
+
+}
+#btn2{
+    background-color: #09A15C;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 11px 20px;
+    border: none;
+    position: relative;
+    top: 80px;
+}
+#btn3{
+    background-color: #FFC239;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 11px 20px;
+    border: none;
+    position: relative;
+    top: 80px;
+}
+.speech{
+    margin: 50px auto;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: white;
+    border-radius: 16px;
+    padding: 48px 24px;
+    width: 1280;
+    background-image:url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom 220px left 25px;
+}
+.speech p{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.speech h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 0px;
 }
