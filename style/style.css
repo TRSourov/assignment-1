@@ -15,6 +15,13 @@
     line-height: 22px;
     padding: 17px 34px;
 }
+.content-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700px;
+    line-height: 48px;
+    text-align: left;
+}
 
 /* header design */
 .navigation{
@@ -70,4 +77,25 @@ nav button{
 }
 #banner-img{
     align-items: center;
+}
+
+/* pillars design */
+
+.pillars{
+    max-width: 1380px;
+    max-height: 324px;
+    margin: 0px auto;
+}
+.content-box{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.content{
+    padding: 24px;
+    width: 302px;
+    height: 244px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
 }
