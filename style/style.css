@@ -86,7 +86,7 @@ nav button{
 .pillars{
     max-width: 1380px;
     max-height: 324px;
-    margin: 80px auto;
+    margin: 150px auto;
 }
 .content-box{
     display: flex;
@@ -194,7 +194,7 @@ nav button{
 .opinion{
     width: 1380px;
     height: 481px;
-    margin: 250px auto;
+    margin: 200px auto;
 }
 .opinion h3{
     margin-bottom: 24px;
@@ -243,6 +243,36 @@ nav button{
     font-weight: 500;
     line-height: 19px;  
 }
-th{
+
+/* news */
+.news{
+    margin: 0px auto;
+    width: 1380px;
+    display: block;
+    
+}
+.news-content{
+    width: 1280px;
+    height: 302px;
+    margin-top: 24px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 48px;
     display: flex;
+    gap: 32px;
+}
+img{
+    border-radius: 24px;
+}
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    margin: 5px;
+}
+.news-details{
+    padding: 0px;
 }
