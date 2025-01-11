@@ -15,6 +15,9 @@
     line-height: 22px;
     padding: 17px 34px;
 }
+.green-btn:hover{
+    background-color: red;
+}
 .content-title{
     color: rgb(14, 14, 14);
     font-size: 40px;
@@ -49,6 +52,9 @@ nav button{
     text-align: center;
     border: 1px solid #006A50;
     border-radius: 8px;
+}
+nav button:hover{
+    background-color: yellowgreen;
 }
 
 /* banner design */
@@ -143,6 +149,9 @@ nav button{
     top: 80px;
 
 }
+#btn1:hover{
+    background-color: chartreuse;
+}
 #btn2{
     background-color: #09A15C;
     border-radius: 8px;
@@ -154,6 +163,9 @@ nav button{
     position: relative;
     top: 80px;
 }
+#btn2:hover{
+    background-color: yellow;
+}
 #btn3{
     background-color: #FFC239;
     border-radius: 8px;
@@ -164,6 +176,9 @@ nav button{
     border: none;
     position: relative;
     top: 80px;
+}
+#btn3:hover{
+    background-color: crimson;
 }
 .speech{
     margin: 50px auto;
@@ -227,6 +242,9 @@ nav button{
 .opinion-table table tr th{
     border: 1px solid black;
     padding: 24px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
 }
 
 .opbtn3{
